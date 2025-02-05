@@ -11,7 +11,7 @@ img {
 	height: auto;
 }
 body {
-  color: #444;
+  color: #444444;
   font-size: 1.6rem;
   font-family: 'Gentium Book Plus', serif;
 }
@@ -19,7 +19,7 @@ p {
   margin-bottom: .67em;
 }
 nav, footer {
-  background-color: #444;
+  background-color:darkolivegreen
 }
 footer {
   text-align: center;
@@ -32,6 +32,7 @@ nav ul {
   padding: 1em;
   display: flex;
   justify-content: space-between;
+  margin: 0;
 }
 nav a:link, nav a:visited {
   color: #D0D0D0;
@@ -49,6 +50,7 @@ header {
   width: 510px;
   margin-top: 2em;
   margin-bottom: 2em;
+  margin: auto;
 }
 header img {
   width: 100%;
@@ -57,33 +59,48 @@ header img {
 header h1 {
   margin: 0 auto;
   padding: 0 auto;
+  text-align: center;
 }
 .small {
   margin-top: 1em;
+  font-weight: 900;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.4rem;
+  text-transform: uppercase;
 }
 /*-- Article Styles--*/
 article {
   width: 768px;
   font-size: 18px;
   line-height: 1.3;
+  margin: auto;
 }
 article figure {
   width: 39%;
   margin: 0 0 1.25em 1.25em;
+  margin: auto;
+  float: right;
 }
 article figcaption {
-  font-size: inherit;
+  margin: auto;
+  font-size: 15px;
+  font-weight: 200;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .pagination {
   margin-top: 2em;
   margin-bottom: 2em;
+  margin-left: auto;
+  margin-right: auto;
   width: 96%;
+  display: flex;
+  justify-content: space-between;
 }
 a.button {
   border: 2px solid #888;
   padding: .4em 1em .4em 1em;
   text-decoration: none;
-  color: #888;
+  color:darkolivegreen
   border-radius: 200px;
   font-family: 'Lato', sans-serif;
   font-weight: 300;
@@ -92,7 +109,8 @@ a.button {
 a.button:hover, a.button:active {
   border: 1px solid #444;
   text-decoration: none;
-  color: #222;
+  text-align: center;
+  color: darkolivegreen;
 }
 /*-- changes header and article width on small screens --*/
 @media screen and (max-width: 768px) {
